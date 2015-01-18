@@ -21,7 +21,7 @@ $Proxy = $ProxyServer + ":" + $ProxyPort
 Set-ItemProperty -Path $path -Name ProxyEnable -Value 1
 Set-ItemProperty -Path $path -Name ProxyServer -Value $Proxy
 
-Write-Host "Proxy ustawione na 192.168.100.2:3128"
+Write-Host "Proxy - 192.168.100.2:3128"
 
 Set-ExecutionPolicy Restricted -force
 Write-Host "scripting disabled"
